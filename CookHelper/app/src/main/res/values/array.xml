@@ -1,0 +1,61 @@
+<resources>
+    <string-array name="cuisine_types">
+        <item>American</item>
+        <item>British</item>
+        <item>Caribbean</item>
+        <item>Chinese</item>
+        <item>French</item>
+        <item>Greek</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Mediterranean</item>
+        <item>Mexican</item>
+        <item>Moroccan</item>
+        <item>Spanish</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Vietnamese</item>
+    </string-array>
+
+    <string-array name="course_types">
+        <item>Breakfast</item>
+        <item>Brunch</item>
+        <item>Drink</item>
+        <item>Lunch</item>
+        <item>Snack</item>
+        <item>Supper</item>
+        <item>Dinner</item>
+    </string-array>
+
+
+    <integer-array name="cuisine_pics">
+        <item>@drawable/american</item>
+        <item>@drawable/british</item>
+        <item>@drawable/caribbean</item>
+        <item>@drawable/chinese</item>
+        <item>@drawable/french</item>
+        <item>@drawable/greek</item>
+        <item>@drawable/indian</item>
+        <item>@drawable/italian</item>
+        <item>@drawable/japanese</item>
+        <item>@drawable/mediterranean</item>
+        <item>@drawable/mexican</item>
+        <item>@drawable/moroccan</item>
+        <item>@drawable/spanish</item>
+        <item>@drawable/thai</item>
+        <item>@drawable/turkish</item>
+        <item>@drawable/vietnamese</item>
+    </integer-array>
+
+    <string-array name="category_types">
+        <item>Title</item>
+        <item>Ingredient</item>
+        <item>Cuisine</item>
+        <item>Course</item>
+        <item>Prep Time</item>
+        <item>Cook Time</item>
+        <item>Calories</item>
+        <item>Serving Size</item>
+    </string-array>
+</resources>

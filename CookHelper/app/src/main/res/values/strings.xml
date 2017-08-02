@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CookHelper</string>
+    <string name="cook_helper">Cook Helper</string>
+    <string name="hungry">Hungry?</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="Back">Back</string>
+    <string name="help_1">1.\tNavigate to the main menu\n2.\tSelect the \"search\" icon at the top right of the screen.\n3.\tEnter specifications to include in your search for a recipe.\n4.\tSelect the desired recipe from the list displayed.</string>
+    <string name="help_2">1.\tOpen the desired recipe by tapping on it.\n2.\tClick on icon in top right corner and select edit. Change applicable fields. (Note some may be required before you may progress).\n3.\tSelect save, which removes the outdated edition of your recipe, and replaces it with the corrected version.</string>
+    <string name="help_3">If recipes can not be saved or edited:\n\tEnsure the device has stable internet connectivity.</string>
+</resources>

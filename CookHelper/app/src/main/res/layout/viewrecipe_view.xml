@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="204dp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/recipePic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pizza"
+                        android:scaleType="fitXY"
+                        android:alpha="0.6"
+                        android:layout_marginBottom="5dp"
+                        android:adjustViewBounds="true" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="American | Lunch"
+                        android:textColor="#ffffff"
+                        android:textSize="10pt"
+                        android:gravity="center"
+                        android:id="@+id/cuisinecourseTextView"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="75dp" />
+
+                    <TextView
+                        android:id="@+id/recipeName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20pt"
+                        android:text="Vegetarian Pizza"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:layout_above="@+id/cuisinecourseTextView"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="395dp"
+                android:layout_height="90dp"
+                android:id="@+id/linearLayout3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/box1"
+                        android:background="@color/orange"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textView6"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:paddingLeft="3dp" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="1">
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.52" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Contains"
+                                android:textAlignment="center"
+                                android:textSize="10sp"
+                                android:textColor="#ffffff"
+                                android:id="@+id/textView5" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="237"
+                                android:gravity="center"
+                                android:textSize="30sp"
+                                android:textColor="#ffffff"
+                                android:id="@+id/calories" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="calories"
+                                android:textSize="10sp"
+                                android:textColor="#ffffff"
+                                android:textAlignment="center"
+                                android:id="@+id/textView8" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.52" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/box2"
+                        android:background="@color/orange"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textView6"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="6dp" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="1" >
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.52" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Prep Time"
+                                android:textAlignment="center"
+                                android:textSize="10sp"
+                                android:textColor="#ffffff"
+                                android:id="@+id/textView4" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="10"
+                                android:gravity="center"
+                                android:textSize="30sp"
+                                android:textColor="#ffffff"
+                                android:id="@+id/prepTime" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="minutes"
+                                android:textSize="10sp"
+                                android:textColor="#ffffff"
+                                android:textAlignment="center"
+                                android:id="@+id/prepTimeUnit" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.52" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/box3"
+                        android:background="@color/orange"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textView6"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="6dp" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="1" >
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.52" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Cook time"
+                                android:textAlignment="center"
+                                android:textSize="10sp"
+                                android:textColor="#ffffff"
+                                android:id="@+id/textView11" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="1.5"
+                                android:gravity="center"
+                                android:textSize="30sp"
+                                android:textColor="#ffffff"
+                                android:id="@+id/cookTime" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="minutes"
+                                android:textSize="10sp"
+                                android:textColor="#ffffff"
+                                android:textAlignment="center"
+                                android:id="@+id/cookTimeUnit" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.52" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/box4"
+                        android:background="@color/orange"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textView6"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="6dp" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="1" >
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.52" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Serves"
+                                android:textAlignment="center"
+                                android:textSize="10sp"
+                                android:textColor="#ffffff"
+                                android:id="@+id/textView14" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:gravity="center"
+                                android:textSize="30sp"
+                                android:textColor="#ffffff"
+                                android:id="@+id/servingSize" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="people"
+                                android:textSize="10sp"
+                                android:textColor="#ffffff"
+                                android:textAlignment="center"
+                                android:id="@+id/textView16" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.52" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="14.65"
+                android:layout_marginLeft="10dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Ingredients"
+                        android:textColor="@color/orange"
+                        android:id="@+id/textView17" />
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:clickable="false"
+                        android:id="@+id/ingredientsList" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Directions"
+                        android:textColor="@color/orange"
+                        android:id="@+id/textView18" />
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/directionsList"
+                        android:layout_marginLeft="10sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
